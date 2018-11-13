@@ -37,7 +37,7 @@ public class Main {
         String svar = "";
         int beløb = 0;
 
-        System.out.println("velkommen til min bank diskression er en dyd");
+        System.out.println("velkommen til min bank diskression er en dyd ;)");
 
         while (true) {
 
