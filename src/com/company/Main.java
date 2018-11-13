@@ -39,6 +39,19 @@ public class Main {
 
         System.out.println("velkommen til min bank diskression er en dyd ;)");
 
+
+
+//            System.out.println("skriv et tal jeg kan lægge fem til");
+//
+//            System.out.println(getTal( "skriv et tal")+ 10);
+
+
+
+
+
+
+
+
         while (true) {
 
             System.out.print(menuValg);
@@ -137,6 +150,26 @@ public class Main {
 
         System.out.println(s);
         return scanner.nextLine();
+
+    }
+
+    public static int getTal(String s) {
+
+        int tal;
+        boolean don = true;
+
+
+        while (true) {
+            try {
+                tal = Integer.parseInt(getInput(s));
+                break;
+            } catch (NumberFormatException e) {
+//            e.printStackTrace();
+                System.out.println("husk at det skal være et tal");
+            }
+
+        }
+                return tal;
 
     }
 
