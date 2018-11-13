@@ -1,4 +1,4 @@
-package com.company;
+package com.company;   // Det her projekt laver vi test på inden vi refaktorisere
 
 import java.util.ArrayList;
 import java.util.Scanner;
