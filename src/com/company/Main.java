@@ -66,7 +66,8 @@ public class Main {
                     Konto konto = findKonto();
                     if (konto != null) {
                         System.out.println("angiv beløb du ønsker indsat");
-                        beløb = Integer.parseInt(scanner.nextLine()); // for at undgå problemer med scanneren
+                        beløb = Integer.parseInt(scanner.nextLine()); // todo det her skal trækkes ud i en metode f.eks. getTal();
+
                         System.out.println(konto.indsæt(beløb));
 
                     } else {
@@ -85,7 +86,8 @@ public class Main {
 
                     if (konto != null) {
                         System.out.println("angiv beløb du ønsker at hæve");
-                        beløb = Integer.parseInt(scanner.nextLine()); // for at undgå problemer med scanneren
+                        beløb = Integer.parseInt(scanner.nextLine()); // // todo det her skal trækkes ud i en metode f.eks. getTal();
+
                         System.out.println(konto.hæv(beløb));
                     }
 
